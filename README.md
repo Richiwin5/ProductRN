@@ -95,3 +95,24 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
+## Features
+- Add up to 5 products with name, price, and image
+- Real-time validation and user feedback
+- Persistent storage using AsyncStorage
+- Clean, responsive UI with progress tracking
+- Product removal functionality
+
+## Tech Stack
+- React Native CLI (TypeScript)
+- Context API for state management
+- AsyncStorage for local persistence
+- react-native-image-picker
+
+## Setup Instructions
+1. Clone the repo
+2. Run npm install
+3. Run npx react-native run-android
+
+## Notes
+The app is designed with scalability in mind and can easily integrate with backend APIs.
